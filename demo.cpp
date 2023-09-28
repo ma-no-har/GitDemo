@@ -2,4 +2,5 @@
 int main()
 {
     std::cout << "Hi";
+    std::cout << "Hello";
 }
