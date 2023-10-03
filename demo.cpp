@@ -1,16 +1,14 @@
 #include <iostream>
 using namespace std;
 
-//Macro definition
-#define AREA(l,b) (l * b)
+//Chain Macros:
+#define INSTAGRAM FOLLOWERS
+#define FOLLOWERS 138
 
 int main()
 {
-    int l1 = 10, l2 = 5, area;
-
-    area = AREA(l1,l2);
-    cout << "Area of rectangle " << area << endl;
-    return 0;
-    
-
+    //Print the message
+    cout << "Geeks for Geeks have"<<INSTAGRAM<<"K followers on Instagram!";
+     
+     return 0;
 }
