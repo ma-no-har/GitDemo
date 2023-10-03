@@ -11,4 +11,6 @@ int main()
     area = AREA(l1,l2);
     cout << "Area of rectangle " << area << endl;
     return 0;
+    
+
 }
